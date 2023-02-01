@@ -1,0 +1,290 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Wed Jun 24 07:08:40 2020
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                   .org_1       code   0x000008    program   0x00166a
+.config_300001_BUILD/DEFAULT/PRODUCTION/COMPLET    romdata   0x300001    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/COMPLET    romdata   0x300003    program   0x000001
+.config_300006_BUILD/DEFAULT/PRODUCTION/COMPLET    romdata   0x300006    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000008    0x001671      
+                            0x300001    0x300001      
+                            0x300003    0x300003      
+                            0x300006    0x300006      
+            5747 out of 33048 program addresses used, program memory utilization is 17%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 ADC_FUNC   0x000310    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+               ADC_FUNC_1   0x00034e    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                  Average   0x000326    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Average_1   0x000360    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             BIN_TO_ASCII   0x000e8c    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+               BIN_TO_DEC   0x000e4e    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+            BPM_MESSAGE_1   0x0012a2    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+            BPM_MESSAGE_2   0x0012c4    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                  BYTE_TX   0x0001ee    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                      B_1   0x000dbe    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+               Breathrate   0x000db4    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    CLEAR   0x00017c    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    CURX0   0x0007d0    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    CURX1   0x0007f2    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                      Cal   0x001546    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+              Calibration   0x000c54    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Capsensor   0x000e1e    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    Check   0x000cb6    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor00   0x000814    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor01   0x000a34    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor10   0x000836    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Cursor100   0x000968    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Cursor101   0x000b88    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor11   0x000a56    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Cursor110   0x00098a    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Cursor111   0x000baa    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Cursor120   0x0009ac    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Cursor121   0x000bcc    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Cursor130   0x0009ce    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Cursor131   0x000bee    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Cursor140   0x0009f0    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Cursor141   0x000c10    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Cursor150   0x000a12    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Cursor151   0x000c32    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor20   0x000858    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor21   0x000a78    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor30   0x00087a    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor31   0x000a9a    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor40   0x00089c    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor41   0x000abc    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor50   0x0008be    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor51   0x000ade    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor60   0x0008e0    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor61   0x000b00    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor70   0x000902    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor71   0x000b22    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor80   0x000924    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor81   0x000b44    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor90   0x000946    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor91   0x000b66    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             DEC_TO_ASCII   0x000e7e    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                  DELAY_1   0x0000fc    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                  DELAY_2   0x000114    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                  DELAY_3   0x00012e    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                  DELAY_4   0x000148    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                      D_1   0x000e54    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                      D_2   0x000e68    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+               Dead_Alarm   0x000ed8    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+            DerivativeADC   0x0003e2    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+         Derivative_DELAY   0x000162    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+              DifficultyF   0x000f54    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+              DifficultyL   0x000f74    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+   EEPROM_DISPLAY_MESSAGE   0x001422    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+           EEPROM_MESSAGE   0x0013be    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+         EEPROM_MESSAGE_R   0x0013f2    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+           EEPROM_READ_EX   0x000488    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+          EEPROM_WRITE_EX   0x00044c    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+       EEPROM_WRITE_HELLO   0x000fb2    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                      E_1   0x0015e4    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                      E_2   0x0015f8    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+           Exhale_Message   0x000c8c    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                   FAILED   0x0004e6    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+              HELLO_WORLD   0x00118c    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                       IN   0x000cea    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                      IN1   0x000d0e    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                     IOSC   0x00004c    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 ISR_PORT   0x000e96    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 ISR_TIME   0x000ebe    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+           Inhale_Message   0x000c6a    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                LCD_CLEAR   0x000716    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+               LCD_CURSOR   0x000754    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                  LCD_INT   0x000576    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             LCD_NoCURSOR   0x000792    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                LCD_PRINT   0x000522    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                LCD_Write   0x0004ee    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                   Lcount   0x0002f4    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                     Line   0x0002f0    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    Loop1   0x000102    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                   Loop10   0x000170    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    Loop2   0x00010a    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    Loop3   0x00011c    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    Loop4   0x000124    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    Loop5   0x000136    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    Loop6   0x00013e    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    Loop7   0x000150    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    Loop8   0x000158    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    Loop9   0x000168    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                  MES_RET   0x000302    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                     Main   0x00163c    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    Main1   0x001644    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                     Menu   0x0001f8    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+           Moving_Average   0x000d74    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                   Normal   0x000f94    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                      OUT   0x000d46    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                  POLL_TX   0x0001f0    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Pressure   0x0015ca    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                  READ_IN   0x000186    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                REG_PRINT   0x000384    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                  RX_DATA   0x000192    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+               Sample_Buf   0x000316    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             Sample_Buf_1   0x000354    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    Start   0x00001a    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+              Startup_Mes   0x0012f0    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                TIME_TEST   0x000012    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                WAIT_FUNC   0x0004de    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             _.org_1_010C   0x00010c    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             _.org_1_0126   0x000126    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             _.org_1_0140   0x000140    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             _.org_1_015A   0x00015a    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             _.org_1_0172   0x000172    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             _.org_1_0188   0x000188    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             _.org_1_031A   0x00031a    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             _.org_1_0358   0x000358    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             _.org_1_04E0   0x0004e0    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             _.org_1_051E   0x00051e    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             _.org_1_165E   0x00165e    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                TIME_TEST   0x000012    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    Start   0x00001a    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                     IOSC   0x00004c    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                  DELAY_1   0x0000fc    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    Loop1   0x000102    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    Loop2   0x00010a    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             _.org_1_010C   0x00010c    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                  DELAY_2   0x000114    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    Loop3   0x00011c    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    Loop4   0x000124    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             _.org_1_0126   0x000126    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                  DELAY_3   0x00012e    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    Loop5   0x000136    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    Loop6   0x00013e    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             _.org_1_0140   0x000140    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                  DELAY_4   0x000148    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    Loop7   0x000150    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    Loop8   0x000158    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             _.org_1_015A   0x00015a    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+         Derivative_DELAY   0x000162    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    Loop9   0x000168    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                   Loop10   0x000170    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             _.org_1_0172   0x000172    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    CLEAR   0x00017c    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                  READ_IN   0x000186    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             _.org_1_0188   0x000188    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                  RX_DATA   0x000192    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                  BYTE_TX   0x0001ee    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                  POLL_TX   0x0001f0    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                     Menu   0x0001f8    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                     Line   0x0002f0    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                   Lcount   0x0002f4    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                  MES_RET   0x000302    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 ADC_FUNC   0x000310    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+               Sample_Buf   0x000316    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             _.org_1_031A   0x00031a    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                  Average   0x000326    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+               ADC_FUNC_1   0x00034e    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             Sample_Buf_1   0x000354    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             _.org_1_0358   0x000358    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Average_1   0x000360    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                REG_PRINT   0x000384    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+            DerivativeADC   0x0003e2    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+          EEPROM_WRITE_EX   0x00044c    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+           EEPROM_READ_EX   0x000488    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                WAIT_FUNC   0x0004de    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             _.org_1_04E0   0x0004e0    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                   FAILED   0x0004e6    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                LCD_Write   0x0004ee    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             _.org_1_051E   0x00051e    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                LCD_PRINT   0x000522    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                  LCD_INT   0x000576    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                LCD_CLEAR   0x000716    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+               LCD_CURSOR   0x000754    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             LCD_NoCURSOR   0x000792    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    CURX0   0x0007d0    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    CURX1   0x0007f2    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor00   0x000814    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor10   0x000836    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor20   0x000858    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor30   0x00087a    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor40   0x00089c    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor50   0x0008be    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor60   0x0008e0    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor70   0x000902    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor80   0x000924    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor90   0x000946    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Cursor100   0x000968    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Cursor110   0x00098a    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Cursor120   0x0009ac    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Cursor130   0x0009ce    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Cursor140   0x0009f0    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Cursor150   0x000a12    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor01   0x000a34    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor11   0x000a56    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor21   0x000a78    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor31   0x000a9a    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor41   0x000abc    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor51   0x000ade    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor61   0x000b00    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor71   0x000b22    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor81   0x000b44    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Cursor91   0x000b66    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Cursor101   0x000b88    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Cursor111   0x000baa    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Cursor121   0x000bcc    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Cursor131   0x000bee    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Cursor141   0x000c10    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Cursor151   0x000c32    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+              Calibration   0x000c54    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+           Inhale_Message   0x000c6a    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+           Exhale_Message   0x000c8c    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    Check   0x000cb6    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                       IN   0x000cea    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                      IN1   0x000d0e    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                      OUT   0x000d46    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+           Moving_Average   0x000d74    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+               Breathrate   0x000db4    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                      B_1   0x000dbe    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                Capsensor   0x000e1e    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+               BIN_TO_DEC   0x000e4e    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                      D_1   0x000e54    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                      D_2   0x000e68    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             DEC_TO_ASCII   0x000e7e    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             BIN_TO_ASCII   0x000e8c    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 ISR_PORT   0x000e96    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 ISR_TIME   0x000ebe    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+               Dead_Alarm   0x000ed8    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+              DifficultyF   0x000f54    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+              DifficultyL   0x000f74    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                   Normal   0x000f94    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+       EEPROM_WRITE_HELLO   0x000fb2    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+              HELLO_WORLD   0x00118c    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+            BPM_MESSAGE_1   0x0012a2    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+            BPM_MESSAGE_2   0x0012c4    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+              Startup_Mes   0x0012f0    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+           EEPROM_MESSAGE   0x0013be    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+         EEPROM_MESSAGE_R   0x0013f2    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+   EEPROM_DISPLAY_MESSAGE   0x001422    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                      Cal   0x001546    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                 Pressure   0x0015ca    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                      E_1   0x0015e4    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                      E_2   0x0015f8    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                     Main   0x00163c    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+                    Main1   0x001644    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+             _.org_1_165E   0x00165e    program     static G:\My Drive\Tuks\2020\EMK\Practicals\Breathing\Individual_Prac.X\Complete.asm
+
+
